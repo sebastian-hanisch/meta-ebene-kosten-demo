@@ -1,0 +1,14 @@
+{
+ "schema": 1,
+ "einheiten": {
+  "Rundtour": "Auswertung = bewerteter Kandidat",
+  "Einplanung": "Auswertung = Regel auf 20 Trainingsinstanzen",
+  "Bin Packing": "Auswertung = Regel auf 20 Trainingsinstanzen; Einsatz in Läufen je Instanz"
+ },
+ "hinweis": "Entwicklungskosten E und Einsatz b je Fahrzeug in dessen Einheit; kein Faktor über Fahrzeuge",
+ "gegner": {
+  "Rundtour": "Zufallsauswahl über alle acht Zugarten (E = 0)",
+  "Einplanung": "ATC(k), k aus g Werten auf 20 Trainingsinstanzen gewählt (E = g)",
+  "Bin Packing": "Best Fit (E = 0); parametrische Regeln PR (21) und PR2 (64 bis 1 024)"
+ }
+}
